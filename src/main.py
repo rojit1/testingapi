@@ -23,4 +23,7 @@ app.include_router(vote_router.router)
  
 @app.get('/')
 def root():
-    return {'message':'Hello from root'}
+    return {'data': {
+        'name':'joshua sir',
+        'nickname':'Zero win pubg noob'
+    }}
